@@ -2,9 +2,9 @@ var packageName = "abm:interact";
 var packageJson = JSON.parse(Npm.require("fs").readFileSync('package.json'));
 
 Package.describe({
-  name: packageJson,
+  name: packageName,
   summary: ' /* Fill me in! */ ',
-  version: packageJson.version,
+  version: ",//packageJson.version,
   git: ' /* Fill me in! */ '
 });
 
